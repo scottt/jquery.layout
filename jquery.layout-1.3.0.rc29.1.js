@@ -1911,7 +1911,7 @@ $.fn.layout = function (opts) {
 		var
 			fullPage= (sC.tagName == "BODY")
 		//	create list of ALL pane-classes that need to be removed
-		,	root	= o.paneClass // default="ui-layout-pane"
+		,	root	= 'ui-layout-pane' /*o.paneClass*/ // default="ui-layout-pane"
 		,	_open	= "-open"
 		,	_sliding= "-sliding"
 		,	_closed	= "-closed"
